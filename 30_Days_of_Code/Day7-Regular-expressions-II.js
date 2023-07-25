@@ -5,7 +5,7 @@ function regexVar() {
    * followed by one or more letters.
    */
 
-  var re = RegExp(/^([aeiou]).*\1$/);
+    var re = /^(Mr\.|Dr\.|Er\.|Ms\.|Mrs\.)\s?[a-z|A-Z]+$/;
   /*
    * Do not remove the return statement
    */
